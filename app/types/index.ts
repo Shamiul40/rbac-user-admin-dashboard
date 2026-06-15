@@ -25,3 +25,5 @@ export interface Team {
     createdAt : Date;
     updatedAt :Date;
 }
+
+export interface
