@@ -42,7 +42,7 @@ model Team {
     updatedAt DateTime @updatedAt
 
     // map
-    @@map("users")
+    @@map("teams")
 }
 
 
