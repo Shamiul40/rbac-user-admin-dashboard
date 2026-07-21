@@ -14,7 +14,7 @@ model User {
     name     String
     role     Role    @default(USER)
     teamId   String?
-    Team     Team?   @relation(fields: [teamId], references: [id], onDelete: SetNull)
+    Team     Team? @relation(fields: [teamId], references: [id], onDelete: setNull)
 
     // TimeStamps
     createdAt DateTime @default(now())
