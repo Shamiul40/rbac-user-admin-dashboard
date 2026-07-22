@@ -8,5 +8,6 @@ export async function checkDatabaseConnection() : Promise<boolean> {
         return true
     } catch (error) {
         console.error(`database connection failed : ${error}`)
+        return false
     }
 }
